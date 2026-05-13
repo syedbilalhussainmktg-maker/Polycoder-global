@@ -1,8 +1,5 @@
 export const runtime = 'nodejs'
 
-export const config = {
-  matcher: ['/((?!api|_next|.*\\..*).*)']
-}
 import createMiddleware from 'next-intl/middleware';
 
 export default createMiddleware({
@@ -11,5 +8,5 @@ export default createMiddleware({
 });
 
 export const config = {
-  matcher: ['/', '/(ur|hi|ar|bn|tr|id|es|fr|de)/:path*']
-};
+  matcher: ['/((?!api|_next|.*\\..*).*)']
+}
