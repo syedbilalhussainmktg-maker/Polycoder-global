@@ -1,3 +1,8 @@
+export const runtime = 'nodejs'
+
+export const config = {
+  matcher: ['/((?!api|_next|.*\\..*).*)']
+}
 import createMiddleware from 'next-intl/middleware';
 
 export default createMiddleware({
