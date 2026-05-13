@@ -1,1 +1,1 @@
-Trigger Vercel Deploy 
+Trigger Vercel Deploy.
